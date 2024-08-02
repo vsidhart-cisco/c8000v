@@ -1,0 +1,7 @@
+Section: IOS configuration
+hostname myC8kv
+username backup1 privilege 15 password 0 Cisco123
+username backup2 privilege 15 password 7 00271A1507542B57567918
+interface GigabitEthernet1
+description "DHCP based IP address configuration"
+ip address dhcp
