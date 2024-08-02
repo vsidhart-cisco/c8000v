@@ -5,3 +5,10 @@ username backup2 privilege 15 password 7 00271A1507542B57567918
 interface GigabitEthernet1
 description "DHCP based IP address configuration"
 ip address dhcp
+line con 0
+stopbits 1
+line aux 0
+line vty 0 4
+transport input ssh
+line vty 5 20
+transport input ssh
